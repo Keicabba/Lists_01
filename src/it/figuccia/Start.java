@@ -11,7 +11,6 @@ public class Start {
 
 //        List<String> cityNames = List.of("Roma","Palermo","Napoli"); funziona uguale
         List<String> cityNames = Arrays.asList("Roma","Palermo","Napoli");
-        cityNames = (cityNames);
         cityNames = Collections.unmodifiableList(cityNames);
 //        cityNames.add("Catania");                 unmodifiableList
 //        cityNames.set(1, "Tegucigalpa");          unmodifiableList
